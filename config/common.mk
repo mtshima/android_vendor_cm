@@ -158,10 +158,6 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
-# Omni Apps
-PRODUCT_PACKAGES += \
-    OmniSwitch
-
 # Screen recorder
 PRODUCT_PACKAGES += \
     ScreenRecorder \
