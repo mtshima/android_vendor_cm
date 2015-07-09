@@ -7,7 +7,6 @@ BOARD_SEPOLICY_DIRS += \
     vendor/cm/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-    dnscryptproxy.te \
     file.te \
     file_contexts \
     genfs_contexts \
