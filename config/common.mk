@@ -216,13 +216,10 @@ PRODUCT_PACKAGES += \
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
-    libstagefright_ffmpeg_plugin \
-    libffmpeg_extractor \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
     media_codecs_ffmpeg.xml
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.sf.omx-plugin=libstagefright_ffmpeg_plugin.so \
-    media.sf.extractor-plugin=libffmpeg_extractor
 
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
