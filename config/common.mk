@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
+# SlimSaber's WallpaperPicker
+PRODUCT_PACKAGES += \
+    WallpaperPicker
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
