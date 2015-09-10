@@ -42,7 +42,7 @@ on init
     # Idle >= 18
     mkdir /sys/fs/cgroup/bfqio/idle 0755 root system
     write /sys/fs/cgroup/bfqio/idle/bfqio.ioprio_class 3
-    write /sys/fs/cgroup/bfqio/idle/bfqio.ioprio 3 
+    write /sys/fs/cgroup/bfqio/idle/bfqio.ioprio 3
     write /sys/fs/cgroup/bfqio/idle/bfqio.weight 1000
     chown root system /sys/fs/cgroup/bfqio/idle/tasks
     chmod 0666 /sys/fs/cgroup/bfqio/idle/tasks
